@@ -6,30 +6,29 @@ import './App.css'
 function App() {
 
   let [counter, setCounter] = useState(15)
+  
+  // let counter = 15
 
-  // let counter = 5
-
-  const addValue = () => {
+  const addValue = () =>{    
    // counter = counter + 1
     setCounter(counter + 1)
-    
   }
-
   const removeValue = () => {
     setCounter(counter - 1)
   }
+
   return (
-    <>    
-    <h1>React Project</h1>
-    <h2>Counter Value:{counter}</h2>
+    <>
+    <h1>React Practice</h1>
+    <h2>Count {counter}</h2>
 
     <button
-    onClick={addValue}>Add Value</button>
+    onClick={addValue}>Add</button>
     <br />
     <button
-    onClick={removeValue}>Remove Value</button>
+    onClick={removeValue}>Remove</button>
     <p>Footer{counter}</p>
-   
+    
     </>
   )
 }
