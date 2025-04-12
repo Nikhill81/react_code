@@ -25,7 +25,7 @@ import Github, { githubInfoLoadeer } from "./components/Github/Github.jsx";
 //         element: <Home />,
 //       },
 //       {
-//         path: 'about',
+//         path: 'about', 
 //         element: <About />,
 //       },
 //       {
